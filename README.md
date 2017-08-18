@@ -1,4 +1,4 @@
-# Apricot is a fast web proxy running chromium
+# Apricot is a very fast web proxy running chromium, free for all developers.
 
 Worldwide locations, Access websites blocked in your country, hide your location and encrypt your connection. Completely free!
 <hr>
