@@ -8,5 +8,5 @@ https://chrome.google.com/webstore/detail/apricot/fobkjmjepodfhggkgoeackdaihhmel
 Git release CRX:<br>
 https://github.com/WhatsVPN/chromium/releases/download/apricot/Apricot_1.0.1.crx
 <hr>
-Follow on twiiter:<br>
+Follow on twitter:<br>
 https://twitter.com/WhatsFreeVpn
