@@ -8,16 +8,6 @@ import logging
 import tornado.web
 from base64 import b64decode, b64encode
 from tornado.options import define, options
-
-define("bind", default="127.0.0.1", help="addrs that debugger bind to")
-define("port", default=8888, help="the port that debugger listen to")
-define("username", default="", help="proxy username")
-define("password", default="", help="proxy password")
-define("debug", default=False, help="debug mode")
-define("config", default="", help="config file")
-define('forward', default="", help="pass request to another proxy with format "
-       "[https?://][username:password@]host:port (or a file wilth multiple proxies)")
-
 import os
 import re
 import json
@@ -41,6 +31,15 @@ try:
     tornado.httpclient.AsyncHTTPClient.configure("tornado.curl_httpclient.CurlAsyncHTTPClient")
 except ImportError:
     pycurl = None
+
+define("bind", default="127.0.0.1", help="addrs that debugger bind to")
+define("port", default=8888, help="the port that debugger listen to")
+define("username", default="", help="proxy username")
+define("password", default="", help="proxy password")
+define("debug", default=False, help="debug mode")
+define("config", default="", help="config file")
+define('forward', default="", help="pass request to another proxy with format "
+       "[https?://][username:password@]host:port (or a file wilth multiple proxies)")
 
 
 def utf8(string):
