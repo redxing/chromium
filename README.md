@@ -15,7 +15,7 @@ Options:
   --port                           the port that debugger listen to
 ```
 # Apricot is a free and fast web proxy running chromium.
-# Free to try WhatsProxy.py with running Apricot on your chromium
+Free to try WhatsProxy.py with running Apricot on your chromium<br>
 
 Worldwide locations, Access websites blocked in your country, hide your location and encrypt your connection. Completely free!
 <hr>
