@@ -1,3 +1,21 @@
+Usage
+=====
+
+```
+Usage: WhatsProxy [OPTIONS]
+
+Options:
+
+  --bind                           addrs that debugger bind to (default
+                                   127.0.0.1)
+  --config                         config file
+  --debug                          debug mode (default False)
+  --help                           show this help information
+  --username                       proxy username
+  --password                       proxy password
+  --port                           the port that debugger listen to (default
+                                   8888)
+```
 # Apricot is a free and fast web proxy running chromium.
 
 Worldwide locations, Access websites blocked in your country, hide your location and encrypt your connection. Completely free!
