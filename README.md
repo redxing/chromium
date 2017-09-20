@@ -1,9 +1,7 @@
 Usage (WhatsProxy.py)
 =====
-
-```
-Usage: WhatsProxy [OPTIONS]
 python WhatsPorxy.py --host 127.0.0.1 --port 8888
+```
 optional arguments:
   -h, --help            show this help message and exit
   --hostname HOSTNAME   Default: 127.0.0.1
