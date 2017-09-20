@@ -3,16 +3,13 @@ Usage (WhatsProxy.py)
 
 ```
 Usage: WhatsProxy [OPTIONS]
-
-Options:
-
-  --bind                           addrs that debugger bind to
-  --config                         config file
-  --debug                          debug mode (default False)
-  --help                           show this help information
-  --username                       proxy username
-  --password                       proxy password
-  --port                           the port that debugger listen to
+python WhatsPorxy.py --host 127.0.0.1 --port 8888
+optional arguments:
+  -h, --help            show this help message and exit
+  --hostname HOSTNAME   Default: 127.0.0.1
+  --port PORT           Default: 8899
+  --log-level LOG_LEVEL
+                        DEBUG, INFO, WARNING, ERROR, CRITICAL
 ```
 # Apricot is a free and fast web proxy running chromium.
 Free to try WhatsProxy.py with running Apricot on your chromium<br>
